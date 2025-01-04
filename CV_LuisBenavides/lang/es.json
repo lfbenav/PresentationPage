@@ -18,7 +18,7 @@
 
     "about_text": "Estudio Ingeniería en Computación en el Instituto Tecnológico de Costa Rica. <br><br> Soy naturalmente curioso y autodidacta, siempre buscando aprender algo nuevo con cada proyecto. Me caracterizo por ser responsable y disfrutar el trabajar en equipo y el aporte de ideas y soluciones. <br><br> Me gusta la programación y la satisfacción de darle soluciones a distintos problemas mediante el desarrollo de software.",
     "portfolio_text": "Algunos de mis proyectos más interesantes.",
-    "resume_text": "Estudiando en el Instituto Tecnológico de Costa Rica desde 2023 hasta la fecha. <br><br> Mis lenguajes de programación principales actualmente son Python, Java y JavaScript, así como la programación en entornos de contenedores utilizando herramientas como Docker y Kubernetes, sin embargo, siempre estoy dispuesto a aprender nuevas tecnologías y trabajar con ellas. <br><br> Tengo experiencia con:",
+    "resume_text": "Estudiando en el Instituto Tecnológico de Costa Rica desde 2023 hasta la fecha. <br><br> Mis lenguajes de programación principales actualmente son Python, Java y JavaScript, así como la programación en entornos de contenedores utilizando herramientas como Docker y Kubernetes. Sin embargo, siempre estoy dispuesto a aprender nuevas tecnologías y trabajar con ellas. <br><br> Tengo experiencia con:",
     "interests_text": "En mi tiempo libre, me gusta hacer cosas como",
     "thanks_text": "¡Gracias por visitar mi sitio web! 😊",
     "contact_text": "Puedes contactarme por el formulario o cualquiera de mis redes sociales.",
@@ -51,5 +51,5 @@
     "response_sent": "Enviado Correctamente",
     "response_error": "Hubo un problema al enviar el correo. Intenta nuevamente.",
 
-    "footer_text": "Hecho con ❤️ por Benavides"
+    "footer_text": "Hecho con ❤️ por Wisfer"
 }

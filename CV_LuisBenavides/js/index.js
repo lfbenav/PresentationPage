@@ -214,11 +214,13 @@ function mandarCorreo(event) {
 
 
 function descargarCV() {
-    if (currentLanguage == 'es') {
-        console.log("es")
-    }else {
-        console.log("en")
-    }
+    const nombre = `${currentLanguage}_resume.pdf`;
+    const ruta = `../pdf/${nombre}`;
+
+    const link = document.createElement("a");
+    link.href = ruta;
+    link.download = nombre;
+    link.click();
 }
 
 
