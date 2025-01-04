@@ -1,0 +1,55 @@
+{
+  "greeting": "Hello!, My name is Luis Benavides.",
+
+  "about": "About Me",
+  "portfolio": "Portfolio",
+  "resume": "Resume",
+  "interests": "Interests",
+  "contact": "Contact",
+
+  "contact_me_btn": "Contact Me",
+  "download_cv_btn": "Download CV",
+
+  "about_h1": "About Me",
+  "portfolio_h1": "Portfolio",
+  "resume_h1": "Resume",
+  "interests_h1": "Interests",
+  "contact_h1": "Contact Me",
+
+  "about_text": "I study Computer Engineering at the Costa Rica Institute of Technology. <br><br> I am naturally curious and self-taught, always looking to learn something new with each project. I am known for being responsible and enjoy working in teams and contributing ideas and solutions. <br><br> I like programming and the satisfaction of solving various problems through software development.",
+  "portfolio_text": "Some of my most interesting projects.",
+  "resume_text": "Studying at the Costa Rica Institute of Technology from 2023 to the present. <br><br> My main programming languages currently are Python, Java, and JavaScript, as well as programming in containerized environments using tools like Docker and Kubernetes. However, I am always willing to learn and work with new technologies. <br><br> I have experience with:",
+  "interests_text": "In my free time, I really enjoy",
+  "thanks_text": "Thank you for visiting my website! 😊",
+  "contact_text": "You can contact me through the form or any of my social media profiles.",
+
+  "experience_languages": "Programming Languages",
+  "experience_databases": "Databases",
+  "experience_technologies": "Other Technologies",
+  "experience_habilities": "Useful Skills",
+  "skill_design_patterns": "Design Patterns",
+  "skill_diagrams": "Diagrams",
+  "skill_data_structures": "Data Structures",
+  "skill_agile_methods": "Agile Methodologies and Project Management",
+  
+  "interests_swimming": "🏊‍♂️ Swimming",
+  "interests_swimming_desc": "I enjoy swimming both to stay fit and for relaxation",
+  "interests_cooking": "🍝 Cooking",
+  "interests_cooking_desc": "It may not always turn out perfect, but that's part of the fun",
+  "interests_cycling": "🚵‍♂️ Cycling",
+  "interests_cycling_desc": "I love going on new routes and discovering landscapes, especially in rural areas",
+  "interests_gaming": "🕹️ Gaming",
+  "interests_gaming_desc": "I like trying new and rare games, it's much better with friends",
+  "interests_dog": "🐶 Walking",
+  "interests_dog_desc": "I always go out to walk with my dog around the neighborhood",
+
+  "InputName": "Name",
+  "InputEmail": "Email Address",
+  "InputSubject": "Subject",
+  "InputMessage": "Message",
+  "submit_btn": "Submit",
+  "response_sent": "Sent Successfully",
+  "response_error": "There was a problem sending the email. Please try again.",
+
+  "footer_text": "Made with ❤️ by Benavides"
+}

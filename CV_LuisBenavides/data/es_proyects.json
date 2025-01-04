@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Tune Stay",
+        "image": "../images/TuneStay.png",
+        "description": "Este proyecto permite buscar canciones con distintos motores de bases de datos, ver su letra y obtener listings de apartamentos basados secciones de esta.",
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "React", "HTML", "CSS", "MongoDB Atlas", "Elasticsearch", "PostgreSQL"],
+        "category": "Proyecto Universitario (2024)",
+        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
+    },
+    {
+        "name": "Song Prompts",
+        "image": "../images/songPrompts.png",
+        "description": "Este proyecto permite a los usuarios buscar canciones a partir de un prompt, compartir sus resultados, interactuar socialmente a través de un feed, seguir a otros usuarios y dar likes a publicaciones.",
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],
+        "category": "Proyecto Universitario (2024)",
+        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
+    },
+    {
+        "name": "Dashboard de Ventas",
+        "image": "../images/salesDashboard.png",
+        "description": "Este proyecto permite ver una lista de vendedores de un json. Al hacer clic en un vendedor, se accede a un dashboard con sus detalles específicos.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "category": "Proyecto Universitario (2024)",
+        "github": "https://github.com/lfbenav/SalesDashboard"
+    },
+    {
+        "name": "Battle City",
+        "image": "../images/tankCity.png",
+        "description": "Es una version en Java del juego original para NES 'Battle City'. Cuenta con un creador de niveles, puntuajes y estadísticas.",
+        "technologies": ["Java"],
+        "category": "Proyecto Universitario (2023)",
+        "github": "https://github.com/lfbenav/BattleCity"
+    },
+    {
+        "name": "MyPetsCr",
+        "image": "../images/myPetCr.png",
+        "description": "Permite manejar diversos procesos centralizar la gestión de pacientes, expedientes y citas, además de la compra y venta de productos.",
+        "technologies": ["Java", "MSSQL"],
+        "category": "Proyecto Universitario (2024)",
+        "github": "https://github.com/lfbenav/MyPetCr"
+    },
+    {
+        "name": "Generador de Videos Cortos",
+        "image": "../images/shorts.png",
+        "description": "Un programa por consola en Python que permite generar videos cortos con audio y subtitulos a partir de videos de fondo y un textos.",
+        "technologies": ["Python"],
+        "category": "Proyecto Personal (2024)",
+        "github": "https://github.com/lfbenav/ShortGenerator"
+    }
+]

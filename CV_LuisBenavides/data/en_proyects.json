@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Tune Stay",
+        "image": "../images/TuneStay.png",
+        "description": "This project allows users to search for songs using different database engines, view their lyrics, and get apartment listings based on song sections.",
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "React", "HTML", "CSS", "MongoDB Atlas", "Elasticsearch", "PostgreSQL"],
+        "category": "University Project (2024)",
+        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
+    },
+    {
+        "name": "Song Prompts",
+        "image": "../images/songPrompts.png",
+        "description": "This project allows users to search for songs based on a prompt, share their results, interact socially through a feed, follow other users, and like posts.",
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],
+        "category": "University Project (2024)",
+        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
+    },
+    {
+        "name": "Sales Dashboard",
+        "image": "../images/salesDashboard.png",
+        "description": "This project displays a list of sales representatives from a JSON file. Clicking on a representative opens a dashboard with their specific details.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "category": "University Project (2024)",
+        "github": "https://github.com/lfbenav/SalesDashboard"
+    },
+    {
+        "name": "Battle City",
+        "image": "../images/tankCity.png",
+        "description": "A Java version of the original NES game 'Battle City'. It features a level editor, scoring, and statistics.",
+        "technologies": ["Java"],
+        "category": "University Project (2023)",
+        "github": "https://github.com/lfbenav/BattleCity"
+    },
+    {
+        "name": "MyPetsCr",
+        "image": "../images/myPetCr.png",
+        "description": "Centralizes the management of patients, medical records, appointments, and the buying and selling of products.",
+        "technologies": ["Java", "MSSQL"],
+        "category": "University Project (2024)",
+        "github": "https://github.com/lfbenav/MyPetCr"
+    },
+    {
+        "name": "Short Video Generator",
+        "image": "../images/shorts.png",
+        "description": "A Python console program that generates short videos with audio and subtitles from background videos and text.",
+        "technologies": ["Python"],
+        "category": "Personal Proyect (2024)",
+        "github": "https://github.com/lfbenav/ShortGenerator"
+    }
+]

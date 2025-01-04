@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<!-- 
+    Página de Presentación
+    Luis Fernando Benavides Villegas
+    2023072689
+-->
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Luis Benavides</title>
+        <link rel="icon" type="image/png" href="../images/icon.png" sizes="32x32">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- Estilos -->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- EmailJs -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">(function(){emailjs.init({publicKey: "ZAurpMbYhnikdzZen",});})();</script>
+
+    </head>
+
+    <body class="default">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark wis-navbar fondo-secondary sticky-top d-flex gap-3">
+            
+            <!-- Toggle Navbar -->
+            <button class="navbar-toggler border-0 px-0 mr-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Brand -->
+            <div>
+                <a id="brand" class="brand" href="#">[wisfer]</a>
+            </div>
+
+            <!-- Offcanvas -->
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1">
+                        <li class="nav-item">
+                            <a id="about" class="nav-link text-center mx-1" href="#about-section"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="portfolio" class="nav-link text-center mx-1" href="#portfolio-section"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="resume" class="nav-link text-center mx-1" href="#resume-section"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="interests" class="nav-link text-center mx-1" href="#interests-section"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contact" class="nav-link text-center mx-1" href="#contact-section"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Switch del Idioma -->
+            <div class="switch-container">
+                <label class="switch">
+                    <label>EN ES</label>
+                    <input id="languageSwitch" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+        </nav>
+
+
+
+
+        <!-- Greeting -->
+        <div class="full-height">
+
+            <div class="fondo-primary">
+                <div class="greeting-div">
+    
+                    <!-- Tag -->
+                    <span class="greeting letra-secondary">&lt;<span class="greeting letra-highlight">h1</span>&gt;</span>
+                    
+                    <!-- Mensaje -->
+                    <div class="greeting-grid">
+                        <div>
+                            <p id="greeting" class="greeting cursor letra-primary p-0 m-0"></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Tag -->
+                    <span class="greeting letra-secondary">&lt;/<span class="greeting letra-highlight">h1</span>&gt;</span>
+                
+                </div>
+            </div>
+
+            <!-- Botones -->
+            <div class="btn-div">
+                <div class="d-flex justify-content-center gap-3 flex-row">
+                    <button class="wis-btn" id="btn-contact" onclick="document.location='#contact-section'">
+                        <img src="../images/send.svg" height="30px" width="30px" alt="" class="img-fluid">
+                        <span id="contact_me_btn"></span>
+                    </button>
+                </div>
+        
+                <div class="d-flex justify-content-center gap-3 flex-row">
+                    <button class="wis-btn" id="btn-download" onclick="console.log('Descargando CV'); descargarCV()">
+                        <img src="../images/download.svg" height="30px" width="30px" alt="" class="img-fluid">
+                        <span id="download_cv_btn"></span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        
+
+
+
+        <div class="container">
+
+
+            <!-- About Me -->
+            <div class="div-about full-height" id="about-section">
+
+                <!-- Texto -->
+                <div>
+                    <h1 id="about_h1" class="letra-highlight text-center"></h1>
+                    <hr>
+                    <p id="about_text" class="subtitulo"></p>
+                </div>
+
+                <!-- Foto -->
+                <div>
+                    <img class="foto" src="../images/foto1.jpeg" height="640px" width="480px" alt="Foto" class="img-fluid">
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Portafolio -->
+            <div class="div-portfolio full-height" id="portfolio-section">
+
+                <div>
+
+                    <h1 id="portfolio_h1" class="letra-highlight text-center"></h1>
+                    <hr>
+                    <p id="portfolio_text" class="subtitulo text-center"></p>
+                    
+                    <!-- Lista de Proyectos -->
+                    <div class="container mt-3">
+                        <div id="contenedorProyectos" class="row row-cols-1 row-cols-lg-2 g-3">
+                            <!-- Se cargan dinamicamente -->
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Resume -->
+            <div class="div-resume full-height" id="resume-section">
+                <div>
+                    <h1 id="resume_h1" class="letra-highlight text-center"></h1>
+                    <hr>
+                    <p id="resume_text" class="subtitulo"></p>
+
+                    <div class="contenedor-habilidadades">
+                        <div class="section">
+                            <strong id="experience_languages"></strong>
+                            <div class="elemento-habilidades" style="background-color: #EC2025;">
+                                <span>Java</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #FFE770;">
+                                <span>Python</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #00589D;">
+                                <span>C++</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #F7E018;">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #659BD3;">
+                                <span>C</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #BB3CA6;">
+                                <span>Kotlin</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #B40000;">
+                                <span>wxMaxima</span>
+                            </div>
+                        </div>
+                        
+                        <div class="section">
+                            <strong id="experience_databases"></strong>
+                            <div class="elemento-habilidades" style="background-color: #AA171C;">
+                                <span>Microsoft SQL Server</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #BD6403;">
+                                <span>MySQL</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #C0765A;">
+                                <span>MariaDB</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #2F6792;">
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #00684A;">
+                                <span>MongoDB Atlas</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #3BBFB1;">
+                                <span>Elasticsearch</span>
+                            </div>
+                        </div>
+                        
+                        <div class="section">
+                            <strong id="experience_technologies"></strong>
+                            <div class="elemento-habilidades" style="background-color: #1072D8;">
+                                <span>Docker</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #3871E6;">
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #E44F26;">
+                                <span>HTML</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #0874BC;">
+                                <span>CSS</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #478CBF;">
+                                <span>Godot</span>
+                            </div>
+                        </div>
+                        
+                        <div class="section">
+                            <strong id="experience_habilities"></strong>
+                            <div class="elemento-habilidades"><span id="skill_design_patterns"></span></div>
+                            <div class="elemento-habilidades"><span id="skill_diagrams"></span></div>
+                            <div class="elemento-habilidades"><span id="skill_data_structures"></span></div>
+                            <div class="elemento-habilidades"><span id="skill_agile_methods"></span></div>
+                        </div>                        
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- Interests -->
+            <div class="div-interests full-height" id="interests-section">
+
+                <div>
+                    <h1 id="interests_h1" class="letra-highlight text-center"></h1>
+                    <hr>
+                    <p id="interests_text" class="subtitulo text-center"></p>
+
+                    <ul class="list-group flex-grow-1" style="list-style-type: none;">
+                        <li class="list-group-item">
+                            <span id="interests_swimming" class="subtitulo letra-highlight"></span>
+                            <br>
+                            <span id="interests_swimming_desc" class="pequena"></span>
+                        </li>
+                    
+                        <li class="list-group-item">
+                            <span id="interests_cooking" class="subtitulo letra-highlight"></span>
+                            <br>
+                            <span id="interests_cooking_desc" class="pequena"></span>
+                        </li>
+                    
+                        <li class="list-group-item">
+                            <span id="interests_cycling" class="subtitulo letra-highlight"></span>
+                            <br>
+                            <span id="interests_cycling_desc" class="pequena"></span>
+                        </li>
+                    
+                        <li class="list-group-item">
+                            <span id="interests_gaming" class="subtitulo letra-highlight"></span>
+                            <br>
+                            <span id="interests_gaming_desc" class="pequena"></span>
+                        </li>
+
+                        <li class="list-group-item">
+                            <span id="interests_dog" class="subtitulo letra-highlight"></span>
+                            <br>
+                            <span id="interests_dog_desc" class="pequena"></span>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Contacto -->
+            <div class="div-contact full-height" id="contact-section">
+
+                <h1 id="contact_h1" class="letra-highlight text-center"></h1>
+                <hr>
+
+                <div class="contact-flex">
+                    <div>
+                        
+                        <p id="thanks_text" class="subtitulo text-center"></p>
+                        <p id="contact_text" class="subtitulo text-center"></p>
+                        
+                        <div class="lista-redes">
+
+                            <ul class="list-group flex-grow-1" style="list-style-type: none;">
+                                <li class="list-group-item">
+                                    <img class="icono" src="../images/mail.svg" alt="Mail Icon">
+                                    <span>lfbenav@gmail.com</span>
+                                </li>
+                                
+                                <li class="list-group-item">
+                                    <img class="icono" src="../images/telegram.svg" alt="Telegram Icon">
+                                    <span>@WisferNya</span>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <img class="icono" src="../images/whatsapp.svg" alt="Whatsapp Icon">
+                                    <span>+506 8719 1628</span>
+                                </li>
+                            </ul>
+
+                            <ul class="list-group flex-grow-1" style="list-style-type: none;">
+                                <li class="list-group-item">
+                                    <a class="d-inline-block" href="https://www.linkedin.com/in/luis-fernando-benavides-villegas-1a94a9289/" target="_blank">
+                                        <img class="icono" src="../images/linkedin.svg" alt="LinkedIn Icon">
+                                    </a>
+                                    <span>Luis Fernando Benavides Villegas</span>
+                                </li>
+    
+                                <li class="list-group-item">
+                                    <a class="d-inline-block" href="https://github.com/lfbenav" target="_blank">
+                                        <img class="icono" src="../images/github.svg" alt="GitHub Icon">
+                                    </a>
+                                    <span>lfbenav</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+
+                    <div>
+                        <form id="contactForm" class="mx-5">
+
+                            <div class="mb-3">
+                                <input class="form-control" type="text" id="InputName" placeholder=" " required>
+                            </div>
+        
+                            <div class="mb-3">
+                                <input class="form-control" type="email" id="InputEmail" placeholder=" " required>
+                            </div>
+        
+                            <div class="mb-3">
+                                <input class="form-control" type="text" id="InputSubject" placeholder=" " required>
+                            </div>
+        
+                            <div class="mb-3">
+                                <textarea class="form-control" id="InputMessage" rows="4" placeholder=" " required></textarea>
+                            </div>
+        
+                            <button id="submit_btn" class="btn btn-outline-dark" type="submit"></button>
+        
+                            <div class="text-center">
+                                <span id="InputAnswer" class="pt-2 form-text"></span>
+                            </div>
+        
+                        </form>
+                    </div>
+                </div>
+        
+            </div>
+
+
+        </div>
+
+        
+
+        <!-- Footer -->
+        <div class="text-color" style="display: flex; flex-direction: column; align-items: center; gap: 1em; padding: 2em 0; width: 100%;"> 
+            <span id="footer_text" class="subtitulo"></span>
+        </div>
+
+    </body>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Particulas -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <!-- Código -->
+    <script src="../js/index.js"></script>
+
+</html>
