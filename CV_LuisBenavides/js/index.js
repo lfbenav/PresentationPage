@@ -6,6 +6,10 @@ let respuestaEnvioError;
 let currentLanguage = document.getElementById('languageSwitch').checked ? 'en' : 'es';
 let currentPalette = 'default';
 
+let proyectList = [];
+let proyectIncrement = 4; 
+let displayedProyects = proyectIncrement
+
 
 
 function loadContent() {
@@ -57,6 +61,8 @@ function loadTranslations(translations) {
     document.getElementById('interests_text').innerHTML = translations.interests_text;
     document.getElementById('thanks_text').innerHTML = translations.thanks_text;
     document.getElementById('contact_text').innerHTML = translations.contact_text;
+
+    document.getElementById('see_more_btn').innerHTML = translations.see_more_btn;
 
     document.getElementById('experience_languages').innerHTML = translations.experience_languages;
     document.getElementById('experience_databases').innerHTML = translations.experience_databases;
@@ -123,12 +129,15 @@ function cargarIntro(texto) {
 
 
 function cargarProyectos(proyectos) {
+    proyectList = [];
+
     document.getElementById('contenedorProyectos').innerHTML = "";
     proyectos.forEach(proyecto => {
+
         badges = ""
-        for (let i = 0; i < proyecto.technologies.length; i++) {
-            badges += `<span class="d-inline-block badge fondo-highlight ml-1">${proyecto.technologies[i]}</span> `
-        }
+        proyecto.technologies.forEach(tech => {
+            badges += `<span class="d-inline-block badge fondo-highlight ml-1">${tech}</span> `
+        })
         
         html = 
             `
@@ -164,9 +173,45 @@ function cargarProyectos(proyectos) {
                 </div>
             </div>
             `;
-        document.getElementById('contenedorProyectos').innerHTML += html;
+
+        proyectList.push(html)
     });
+
+    for (let index = 0; index < displayedProyects; index++) {
+        if (proyectList.length > 0) {
+            document.getElementById('contenedorProyectos').innerHTML += proyectList.shift()
+        }
+    }
+
+    // proyectList.forEach(proyect => {document.getElementById('contenedorProyectos').innerHTML += proyect})
+    
 }
+
+
+
+
+function cargarMasProyectos() {
+
+    document.getElementById('see_more_btn').style.display = 'inline-block';
+
+    // const proyectosAMostrar = proyectList.splice(0, 4);
+    // proyectosAMostrar.forEach(proyect => {document.getElementById('contenedorProyectos').innerHTML += proyect})
+
+    for (let index = 0; index < proyectIncrement; index++) {
+        if (proyectList.length > 0) {
+            displayedProyects++
+            document.getElementById('contenedorProyectos').innerHTML += proyectList.shift()
+        }
+    }
+
+
+    if (proyectList.length === 0) {
+        document.getElementById('see_more_btn').style.display = 'none';
+        return;
+    }
+
+}
+
 
 
 

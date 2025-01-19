@@ -1,6 +1,6 @@
 {
     "greeting": "¡Hola!, me llamo Luis Benavides.",
-    
+
     "about": "Sobre mí",
     "portfolio": "Portafolio",
     "resume": "Currículum",
@@ -22,6 +22,8 @@
     "interests_text": "En mi tiempo libre, me gusta hacer cosas como",
     "thanks_text": "¡Gracias por visitar mi sitio web! 😊",
     "contact_text": "Puedes contactarme por el formulario o cualquiera de mis redes sociales.",
+
+    "see_more_btn": "Ver más",
 
     "experience_languages": "Lenguajes de Programación",
     "experience_databases": "Bases de Datos",

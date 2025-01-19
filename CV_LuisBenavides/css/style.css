@@ -404,7 +404,13 @@ hr {
     filter: var(--icon-secondary-filter);
 }
 
+.btn-link {
+    color: var(--highlight-color)
+}
 
+.btn-link:hover {
+    color: var(--highlight-secondary-color)
+}
 
 
 

@@ -16,6 +16,14 @@
         "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
     },
     {
+        "name": "Juego de Banderas",
+        "image": "../images/flagGame.png",
+        "description": "Flag Game es un juego en el que hay que seleccionar el país correcto de entre cuarto opciones basado en la bandera que aparece. Cuenta con tres modos de juego distitntos, por rondas, por tiempo y hasta el fallo.",
+        "technologies": ["Angular"],
+        "category": "Proyecto Universitario (2025)",
+        "github": "https://github.com/lfbenav/FlagGame"
+    },
+    {
         "name": "Dashboard de Ventas",
         "image": "../images/salesDashboard.png",
         "description": "Este proyecto permite ver una lista de vendedores de un json. Al hacer clic en un vendedor, se accede a un dashboard con sus detalles específicos.",

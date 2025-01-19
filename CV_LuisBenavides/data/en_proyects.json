@@ -16,6 +16,14 @@
         "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
     },
     {
+        "name": "Flag Game",
+        "image": "../images/flagGame.png",
+        "description": "Flag Game is a game where you must select the correct country from four options based on the displayed flag. It features three different game modes: by rounds, timed, and survival.",
+        "technologies": ["Angular"],
+        "category": "University Project (2025)",
+        "github": "https://github.com/lfbenav/FlagGame"
+    },
+    {
         "name": "Sales Dashboard",
         "image": "../images/salesDashboard.png",
         "description": "This project displays a list of sales representatives from a JSON file. Clicking on a representative opens a dashboard with their specific details.",
