@@ -24,6 +24,14 @@
         "github": "https://github.com/lfbenav/FlagGame"
     },
     {
+        "name": "IMDb Simplificado",
+        "image": "../images/imdb.png",
+        "description": "Es un sitio web interactivo que permita a los usuarios gestionar información sobre películas, actores y repartos.",
+        "technologies": ["Angular", "Material","Tailwind"],
+        "category": "Proyecto Universitario (2025)",
+        "github": "https://github.com/StevenNaranjo/IMDbProyectoWEB"
+    },
+    {
         "name": "Dashboard de Ventas",
         "image": "../images/salesDashboard.png",
         "description": "Este proyecto permite ver una lista de vendedores de un json. Al hacer clic en un vendedor, se accede a un dashboard con sus detalles específicos.",

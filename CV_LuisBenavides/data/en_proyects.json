@@ -24,6 +24,14 @@
         "github": "https://github.com/lfbenav/FlagGame"
     },
     {
+        "name": "Simplified IMDb",
+        "image": "../images/imdb.png",
+        "description": "An interactive website that allows users to manage information about movies, actors, and casts.",
+        "technologies": ["Angular", "Material","Tailwind"],
+        "category": "University Project (2025)",
+        "github": "https://github.com/StevenNaranjo/IMDbProyectoWEB"
+    },
+    {
         "name": "Sales Dashboard",
         "image": "../images/salesDashboard.png",
         "description": "This project displays a list of sales representatives from a JSON file. Clicking on a representative opens a dashboard with their specific details.",
