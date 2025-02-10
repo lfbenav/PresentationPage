@@ -29,7 +29,7 @@
         "description": "Es un sitio web interactivo que permita a los usuarios gestionar información sobre películas, actores y repartos.",
         "technologies": ["Angular", "Material","Tailwind"],
         "category": "Proyecto Universitario (2025)",
-        "github": "https://github.com/StevenNaranjo/IMDbProyectoWEB"
+        "github": "https://github.com/StevenNaranjo/IMDbProyectoWEB/tree/Juan"
     },
     {
         "name": "Dashboard de Ventas",
