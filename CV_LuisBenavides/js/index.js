@@ -273,8 +273,6 @@ function mandarCorreo(event) {
 
 
 function descargarCV() {
-    document.getElementById('languageSwitch').checked ? 'en' : 'es';
-
     let nombre = (currentLanguage == 'en') ? 'Luis_Benavides_CV_EN.pdf' : 'Luis_Benavides_CV_ES.pdf';
     const ruta = `../pdf/${nombre}`;
 
