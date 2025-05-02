@@ -529,6 +529,11 @@ hr {
         width: 45px;
         height: 45px;
     }
+    
+    .icono-linkless {
+        width: 45px;
+        height: 45px;
+    }
 
     .full-height {
         min-height: auto;
@@ -571,6 +576,11 @@ hr {
     }
 
     .icono {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icono-linkless {
         width: 40px;
         height: 40px;
     }
@@ -654,6 +664,11 @@ hr {
     }
 
     .icono {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icono-linkless {
         width: 30px;
         height: 30px;
     }
