@@ -8,7 +8,7 @@
         "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
     },
     {
-        "name": "Song Prompts",
+        "name": "Semantify",
         "image": "../images/songPrompts.png",
         "description": "This project allows users to search for songs based on a prompt, share their results, interact socially through a feed, follow other users, and like posts.",
         "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],

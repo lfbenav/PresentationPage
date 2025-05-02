@@ -80,7 +80,7 @@
             <div class="switch-container">
                 <label class="switch">
                     <label>EN ES</label>
-                    <input id="languageSwitch" type="checkbox">
+                    <input id="languageSwitch" type="checkbox" checked>
                     <span class="slider"></span>
                 </label>
             </div>
@@ -172,6 +172,7 @@
                         </div>
                         <div class="text-center mt-4">
                             <button id="see_more_btn" onclick="cargarMasProyectos()" class="btn btn-link p-0 text-decoration-none"></button>
+                            <button id="see_less_btn" onclick="cargarMenosProyectos()" class="btn btn-link p-0 text-decoration-none" style="display: none;"></button>
                         </div>
                     </div>
                 
@@ -249,6 +250,15 @@
                             </div>
                             <div class="elemento-habilidades" style="background-color: #0874BC;">
                                 <span>CSS</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #0874BC;">
+                                <span>Angular</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #0874BC;">
+                                <span>Rest</span>
+                            </div>
+                            <div class="elemento-habilidades" style="background-color: #0874BC;">
+                                <span>React</span>
                             </div>
                             <div class="elemento-habilidades" style="background-color: #478CBF;">
                                 <span>Godot</span>
@@ -333,17 +343,17 @@
 
                             <ul class="list-group flex-grow-1" style="list-style-type: none;">
                                 <li class="list-group-item">
-                                    <img class="icono" src="../images/mail.svg" alt="Mail Icon">
+                                    <img class="icono-linkless" src="../images/mail.svg" alt="Mail Icon">
                                     <span>lfbenav@gmail.com</span>
                                 </li>
                                 
                                 <li class="list-group-item">
-                                    <img class="icono" src="../images/telegram.svg" alt="Telegram Icon">
-                                    <span>@WisferNya</span>
+                                    <img class="icono-linkless" src="../images/telegram.svg" alt="Telegram Icon">
+                                    <span>@lfbenav</span>
                                 </li>
 
                                 <li class="list-group-item">
-                                    <img class="icono" src="../images/whatsapp.svg" alt="Whatsapp Icon">
+                                    <img class="icono-linkless" src="../images/whatsapp.svg" alt="Whatsapp Icon">
                                     <span>+506 8719 1628</span>
                                 </li>
                             </ul>
@@ -384,7 +394,7 @@
                             </div>
         
                             <div class="mb-3">
-                                <textarea class="form-control" id="InputMessage" rows="4" placeholder=" " required></textarea>
+                                <textarea class="form-control" id="InputMessage" rows="4" placeholder=" " required style="resize: none;"></textarea>
                             </div>
         
                             <button id="submit_btn" class="btn btn-outline-dark" type="submit"></button>
@@ -406,7 +416,7 @@
 
         <!-- Footer -->
         <div class="text-color" style="display: flex; flex-direction: column; align-items: center; gap: 1em; padding: 2em 0; width: 100%;"> 
-            <span id="footer_text" class="subtitulo"></span>
+            <span id="footer_text" class="pequena"></span>
         </div>
 
     </body>

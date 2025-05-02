@@ -7,7 +7,7 @@ let currentLanguage = document.getElementById('languageSwitch').checked ? 'en' :
 let currentPalette = 'default';
 
 let proyectList = [];
-let proyectIncrement = 4; 
+let proyectIncrement = window.innerWidth < 1000 ? 2 : 4;
 let displayedProyects = proyectIncrement
 
 
@@ -63,6 +63,7 @@ function loadTranslations(translations) {
     document.getElementById('contact_text').innerHTML = translations.contact_text;
 
     document.getElementById('see_more_btn').innerHTML = translations.see_more_btn;
+    document.getElementById('see_less_btn').innerHTML = translations.see_less_btn;
 
     document.getElementById('experience_languages').innerHTML = translations.experience_languages;
     document.getElementById('experience_databases').innerHTML = translations.experience_databases;
@@ -207,11 +208,24 @@ function cargarMasProyectos() {
 
     if (proyectList.length === 0) {
         document.getElementById('see_more_btn').style.display = 'none';
+        document.getElementById('see_less_btn').style.display = 'inline-block';
         return;
     }
 
 }
 
+
+
+
+function cargarMenosProyectos() {
+
+    document.getElementById('see_less_btn').style.display = 'none';
+    document.getElementById('see_more_btn').style.display = 'inline-block';
+
+    displayedProyects = proyectIncrement;
+
+    loadContent();
+}
 
 
 
@@ -259,7 +273,9 @@ function mandarCorreo(event) {
 
 
 function descargarCV() {
-    const nombre = `${currentLanguage}_resume.pdf`;
+    document.getElementById('languageSwitch').checked ? 'en' : 'es';
+
+    let nombre = (currentLanguage == 'en') ? 'Luis_Benavides_CV_EN.pdf' : 'Luis_Benavides_CV_ES.pdf';
     const ruta = `../pdf/${nombre}`;
 
     const link = document.createElement("a");

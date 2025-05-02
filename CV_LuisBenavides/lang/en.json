@@ -16,7 +16,7 @@
     "interests_h1": "Interests",
     "contact_h1": "Contact Me",
 
-    "about_text": "I study Computer Engineering at the Costa Rica Institute of Technology. <br><br> I am naturally curious and self-taught, always looking to learn something new with each project. I am known for being responsible and enjoy working in teams and contributing ideas and solutions. <br><br> I like programming and the satisfaction of solving various problems through software development.",
+    "about_text": "Detail-oriented Computer Engineer with a strong foundation in software development, data systems, and emerging technologies. <br><br> Passionate about DevOps, full-stack development, and game development. <br><br> Strong communicator and team player with a proactive mindset, eager to solve real-world problems and build meaningful, impactful solutions through continuous learning.",
     "portfolio_text": "Some of my most interesting projects.",
     "resume_text": "Studying at the Costa Rica Institute of Technology from 2023 to the present. <br><br> My main programming languages currently are Python, Java, and JavaScript, as well as programming in containerized environments using tools like Docker and Kubernetes. However, I am always willing to learn and work with new technologies. <br><br> I have experience with:",
     "interests_text": "In my free time, I really enjoy",
@@ -24,6 +24,7 @@
     "contact_text": "You can contact me through the form or any of my social media profiles.",
 
     "see_more_btn": "Show more",
+    "see_less_btn": "Show less",
 
     "experience_languages": "Programming Languages",
     "experience_databases": "Databases",
