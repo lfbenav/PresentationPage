@@ -5,7 +5,8 @@
         "description": "This project allows users to search for songs using different database engines, view their lyrics, and get apartment listings based on song sections.",
         "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "React", "HTML", "CSS", "MongoDB Atlas", "Elasticsearch", "PostgreSQL"],
         "category": "University Project (2024)",
-        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
     },
     {
         "name": "Semantify",
@@ -13,7 +14,8 @@
         "description": "This project allows users to search for songs based on a prompt, share their results, interact socially through a feed, follow other users, and like posts.",
         "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],
         "category": "University Project (2024)",
-        "github": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
     },
     {
         "name": "Flag Game",
@@ -21,7 +23,17 @@
         "description": "Flag Game is a game where you must select the correct country from four options based on the displayed flag. It features three different game modes: by rounds, timed, and survival.",
         "technologies": ["Angular"],
         "category": "University Project (2025)",
-        "github": "https://github.com/lfbenav/FlagGame"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/FlagGame"
+    },
+    {
+        "name": "JOCOTE Transpiler",
+        "image": "../images/jocote.png",
+        "description": "AAA",
+        "technologies": ["Python"],
+        "category": "University Project (2025)",
+        "platform": "gitlab",
+        "link": "https://github.com/lfbenav/FlagGame"
     },
     {
         "name": "Simplified IMDb",
@@ -29,7 +41,8 @@
         "description": "An interactive website that allows users to manage information about movies, actors, and casts.",
         "technologies": ["Angular", "Material","Tailwind"],
         "category": "University Project (2025)",
-        "github": "https://github.com/StevenNaranjo/IMDbProyectoWEB/tree/Juan"
+        "platform": "github",
+        "link": "https://github.com/StevenNaranjo/IMDbProyectoWEB/tree/Juan"
     },
     {
         "name": "Sales Dashboard",
@@ -37,7 +50,8 @@
         "description": "This project displays a list of sales representatives from a JSON file. Clicking on a representative opens a dashboard with their specific details.",
         "technologies": ["HTML", "CSS", "Javascript"],
         "category": "University Project (2024)",
-        "github": "https://github.com/lfbenav/SalesDashboard"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/SalesDashboard"
     },
     {
         "name": "Battle City",
@@ -45,7 +59,8 @@
         "description": "A Java version of the original NES game 'Battle City'. It features a level editor, scoring, and statistics.",
         "technologies": ["Java"],
         "category": "University Project (2023)",
-        "github": "https://github.com/lfbenav/BattleCity"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/BattleCity"
     },
     {
         "name": "MyPetsCr",
@@ -53,7 +68,8 @@
         "description": "Centralizes the management of patients, medical records, appointments, and the buying and selling of products.",
         "technologies": ["Java", "MSSQL"],
         "category": "University Project (2024)",
-        "github": "https://github.com/lfbenav/MyPetCr"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/MyPetCr"
     },
     {
         "name": "Short Video Generator",
@@ -61,6 +77,7 @@
         "description": "A Python console program that generates short videos with audio and subtitles from background videos and text.",
         "technologies": ["Python"],
         "category": "Personal Proyect (2024)",
-        "github": "https://github.com/lfbenav/ShortGenerator"
+        "platform": "github",
+        "link": "https://github.com/lfbenav/ShortGenerator"
     }
 ]

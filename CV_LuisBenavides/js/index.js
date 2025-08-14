@@ -139,7 +139,7 @@ function cargarProyectos(proyectos) {
         proyecto.technologies.forEach(tech => {
             badges += `<span class="d-inline-block badge fondo-highlight ml-1">${tech}</span> `
         })
-        
+
         html = 
             `
             <div class="col">
@@ -163,8 +163,8 @@ function cargarProyectos(proyectos) {
 
                             <!-- Botones -->
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="${proyecto.github}" target="_blank" rel="noopener noreferrer">
-                                    <img class="icono-pequeno" src="../images/github.svg" alt="GitHub">
+                                <a href="${proyecto.link}" target="_blank" rel="noopener noreferrer">
+                                    <img class="icono-pequeno" src="../images/${proyecto.platform}.svg" alt="${proyecto.platform}">
                                 </a>
                                 <small class="text-body-secondary">${proyecto.category}</small>
                             </div>
