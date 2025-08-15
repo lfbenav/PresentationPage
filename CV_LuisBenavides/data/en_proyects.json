@@ -29,11 +29,11 @@
     {
         "name": "JOCOTE Transpiler",
         "image": "../images/jocote.png",
-        "description": "AAA",
+        "description": "An educational programming language designed to be simple and easy to understand. Features a transpiler that converts JOCOTE code into Python.",
         "technologies": ["Python"],
         "category": "University Project (2025)",
         "platform": "gitlab",
-        "link": "https://github.com/lfbenav/FlagGame"
+        "link": "https://gitlab.com/jocote/JOCOTE"
     },
     {
         "name": "Simplified IMDb",
