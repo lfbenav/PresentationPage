@@ -3,7 +3,7 @@
         "name": "Tune Stay",
         "image": "../images/TuneStay.png",
         "description": "Este proyecto permite buscar canciones con distintos motores de bases de datos, ver su letra y obtener listings de apartamentos basados secciones de esta.",
-        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "React", "HTML", "CSS", "MongoDB Atlas", "Elasticsearch", "PostgreSQL"],
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "JavaScript", "React", "HTML", "CSS", "MongoDB Atlas", "Elasticsearch", "PostgreSQL"],
         "category": "Proyecto Universitario (2024)",
         "platform": "github",
         "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P2/P2_BDII"
@@ -12,7 +12,7 @@
         "name": "Semantify",
         "image": "../images/songPrompts.png",
         "description": "Este proyecto permite a los usuarios buscar canciones a partir de un prompt, compartir sus resultados, interactuar socialmente a través de un feed, seguir a otros usuarios y dar likes a publicaciones.",
-        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "Javascript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],
+        "technologies": ["Docker", "Kubernetes", "Python", "Flask", "JavaScript", "HTML", "CSS", "Elasticsearch", "MariaDB", "Memcached", "RabbitMQ", "Prometheus", "Grafana"],
         "category": "Proyecto Universitario (2024)",
         "platform": "github",
         "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
@@ -45,15 +45,6 @@
         "link": "https://github.com/StevenNaranjo/IMDbProyectoWEB/tree/Juan"
     },
     {
-        "name": "Dashboard de Ventas",
-        "image": "../images/salesDashboard.png",
-        "description": "Este proyecto permite ver una lista de vendedores de un json. Al hacer clic en un vendedor, se accede a un dashboard con sus detalles específicos.",
-        "technologies": ["HTML", "CSS", "Javascript"],
-        "category": "Proyecto Universitario (2024)",
-        "platform": "github",
-        "link": "https://github.com/lfbenav/SalesDashboard"
-    },
-    {
         "name": "Battle City",
         "image": "../images/tankCity.png",
         "description": "Es una version en Java del juego original para NES 'Battle City'. Cuenta con un creador de niveles, puntuajes y estadísticas.",
@@ -70,6 +61,25 @@
         "category": "Proyecto Universitario (2024)",
         "platform": "github",
         "link": "https://github.com/lfbenav/MyPetCr"
+    },
+    {
+        "name": "Cerro Dragón Tours",
+        "image": "../images/cerroDragon.png",
+        "description": "Desarrollado para un negocio local que ofrece recorridos en la zona de Cerro Los Naranjos en Aserrí, Costa Rica. El sitio cuenta con un diseño responsivo, filtrado de tours e imágenes optimizadas.",
+        "technologies": ["HTML", "JavaScript", "CSS", "Supabase", "Cloudinary"],
+        "category": "Proyecto Universitario (2024)",
+        "platform": "github",
+        "link": "https://github.com/StevenNaranjo/PaginaWeb-Dragon-main",
+        "website": "https://cerrodragon.vercel.app"
+    },
+    {
+        "name": "Dashboard de Ventas",
+        "image": "../images/salesDashboard.png",
+        "description": "Este proyecto permite ver una lista de vendedores de un json. Al hacer clic en un vendedor, se accede a un dashboard con sus detalles específicos.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "category": "Proyecto Universitario (2024)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/SalesDashboard"
     },
     {
         "name": "Generador de Videos Cortos",

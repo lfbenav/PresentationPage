@@ -69,11 +69,18 @@ function loadTranslations(translations) {
     document.getElementById('experience_databases').innerHTML = translations.experience_databases;
     document.getElementById('experience_technologies').innerHTML = translations.experience_technologies;
     document.getElementById('experience_habilities').innerHTML = translations.experience_habilities;
+
     document.getElementById('skill_design_patterns').innerHTML = translations.skill_design_patterns;
     document.getElementById('skill_diagrams').innerHTML = translations.skill_diagrams;
     document.getElementById('skill_data_structures').innerHTML = translations.skill_data_structures;
     document.getElementById('skill_agile_methods').innerHTML = translations.skill_agile_methods;
+    document.getElementById('skill_driving_licence').innerHTML = translations.skill_driving_licence;
+    document.getElementById('skill_team_worker').innerHTML = translations.skill_team_worker;
+    document.getElementById('skill_leadership').innerHTML = translations.skill_leadership;
+    document.getElementById('skill_languages').innerHTML = translations.skill_languages;
 
+    document.getElementById('interests_studies').textContent = translations.interests_studies;
+    document.getElementById('interests_studies_desc').textContent = translations.interests_studies_desc;
     document.getElementById('interests_swimming').textContent = translations.interests_swimming;
     document.getElementById('interests_swimming_desc').textContent = translations.interests_swimming_desc;
     document.getElementById('interests_cooking').textContent = translations.interests_cooking;
@@ -140,6 +147,11 @@ function cargarProyectos(proyectos) {
             badges += `<span class="d-inline-block badge fondo-highlight ml-1">${tech}</span> `
         })
 
+        website = ""
+        if (proyecto.website) {
+            website = `<a class="d-inline-block" href="${proyecto.website}" target="_blank" rel="noopener noreferrer"><img class="icono-pequeno" src="../images/website.svg" alt="Website"></a>`
+        }
+
         html = 
             `
             <div class="col">
@@ -163,9 +175,12 @@ function cargarProyectos(proyectos) {
 
                             <!-- Botones -->
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="${proyecto.link}" target="_blank" rel="noopener noreferrer">
-                                    <img class="icono-pequeno" src="../images/${proyecto.platform}.svg" alt="${proyecto.platform}">
-                                </a>
+                                <div>
+                                    <a class="d-inline-block" href="${proyecto.link}" target="_blank" rel="noopener noreferrer">
+                                        <img class="icono-pequeno" src="../images/${proyecto.platform}.svg" alt="${proyecto.platform}">
+                                    </a>
+                                    ${website}
+                                </div>
                                 <small class="text-body-secondary">${proyecto.category}</small>
                             </div>
                         </div>
@@ -225,6 +240,11 @@ function cargarMenosProyectos() {
     displayedProyects = proyectIncrement;
 
     loadContent();
+
+    document.getElementById('portfolio-section').scrollIntoView({ 
+        behavior: 'instant', 
+        block: 'start' 
+    });
 }
 
 

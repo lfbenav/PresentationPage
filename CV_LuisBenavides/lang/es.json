@@ -18,7 +18,7 @@
 
     "about_text": "Ingeniero en Computación cuidadoso con los detalles, con una sólida base en desarrollo de software, sistemas de datos y tecnologías emergentes. <br><br> Apasionado por DevOps, desarrollo full-stack y desarrollo de videojuegos. <br><br> Comunicativo y colaborador, con una mentalidad proactiva, siempre con ganas de resolver problemas reales y construir soluciones significativas e impactantes a través del aprendizaje continuo.",
     "portfolio_text": "Algunos de mis proyectos más interesantes.",
-    "resume_text": "Estudiando en el Instituto Tecnológico de Costa Rica desde 2023 hasta la fecha. <br><br> Mis lenguajes de programación principales actualmente son Python, Java y JavaScript, así como la programación en entornos de contenedores utilizando herramientas como Docker y Kubernetes. Sin embargo, siempre estoy dispuesto a aprender nuevas tecnologías y trabajar con ellas. <br><br> Tengo experiencia con:",
+    "resume_text": "Estudiando en el <a href='https://www.tec.ac.cr' class='letra-link' target='_blank'>Instituto Tecnológico de Costa Rica</a> desde 2023 hasta la fecha. <br><br> Mis lenguajes de programación principales actualmente son Python, Java y JavaScript, así como la programación en entornos de contenedores utilizando herramientas como Docker y Kubernetes. Sin embargo, siempre estoy dispuesto a aprender nuevas tecnologías y trabajar con ellas. <br><br> Tengo experiencia con:",
     "interests_text": "En mi tiempo libre, me gusta hacer cosas como",
     "thanks_text": "¡Gracias por visitar mi sitio web! 😊",
     "contact_text": "Puedes contactarme por el formulario o cualquiera de mis redes sociales.",
@@ -30,11 +30,18 @@
     "experience_databases": "Bases de Datos",
     "experience_technologies": "Otras Tecnologías",
     "experience_habilities": "Habilidades Útiles",
-    "skill_design_patterns": "Patrones de diseño",
+
+    "skill_design_patterns": "Patrones de Diseño",
     "skill_diagrams": "Diagramas",
     "skill_data_structures": "Estructuras de datos",
     "skill_agile_methods": "Metodologías Ágiles y Administración de Proyectos",
+    "skill_driving_licence": "Licencia de Conducir B1",
+    "skill_team_worker": "Trabador en Equipo",
+    "skill_leadership": "Liderazgo",
+    "skill_languages": "Excelente Inglés y Español",
 
+    "interests_studies": "💻 Aprender",
+    "interests_studies_desc": "Me gusta estudiar nuevas áreas por mi cuenta. Actualmente estoy aprendiendo sobre DevOps y ciberseguridad",
     "interests_swimming": "🏊‍♂️ Natación",
     "interests_swimming_desc": "Me gusta practicar natación tanto para mantenerme en forma como por relajación",
     "interests_cooking": "🍝 Cocina",

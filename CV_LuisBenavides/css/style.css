@@ -45,6 +45,15 @@ body {
     color: var(--highlight-color);
 }
 
+.letra-link {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.letra-link:hover {
+    color: var(--highlight-secondary-color);
+}
+
 .fondo-primary {
     background-color: var(--background-color);
 }
