@@ -242,7 +242,7 @@ function cargarMenosProyectos() {
     loadContent();
 
     document.getElementById('portfolio-section').scrollIntoView({ 
-        behavior: 'instant', 
+        behavior: 'smooth', 
         block: 'start' 
     });
 }
