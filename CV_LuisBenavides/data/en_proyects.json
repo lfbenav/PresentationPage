@@ -80,14 +80,5 @@
         "category": "University Project (2024)",
         "platform": "github",
         "link": "https://github.com/lfbenav/SalesDashboard"
-    },
-    {
-        "name": "Short Video Generator",
-        "image": "../images/shorts.png",
-        "description": "A Python console program that generates short videos with audio and subtitles from background videos and text.",
-        "technologies": ["Python"],
-        "category": "Personal Proyect (2024)",
-        "platform": "github",
-        "link": "https://github.com/lfbenav/ShortGenerator"
     }
 ]
