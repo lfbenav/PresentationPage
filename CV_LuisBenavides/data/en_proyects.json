@@ -27,6 +27,15 @@
         "link": "https://github.com/lfbenav/FlagGame"
     },
     {
+        "name": "Tendindo",
+        "image": "../images/tendindo.png",
+        "description": "An Android application for managing collaborative projects, allowing users to create projects, assign tasks, manage collaborators, schedule meetings, and communicate through an integrated forum.",
+        "technologies": ["Kotlin", "Java", "Node.js", "Express"],
+        "category": "University Project (2024)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/Tendindo"
+    },
+    {
         "name": "JOCOTE Transpiler",
         "image": "../images/jocote.png",
         "description": "An educational programming language designed to be simple and easy to understand. Features a transpiler that converts JOCOTE code into Python.",
