@@ -18,15 +18,6 @@
         "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
     },
     {
-        "name": "Flag Game",
-        "image": "../images/flagGame.png",
-        "description": "Flag Game is a game where you must select the correct country from four options based on the displayed flag. It features three different game modes: by rounds, timed, and survival.",
-        "technologies": ["Angular"],
-        "category": "University Project (2025)",
-        "platform": "github",
-        "link": "https://github.com/lfbenav/FlagGame"
-    },
-    {
         "name": "Tendindo",
         "image": "../images/tendindo.png",
         "description": "An Android application for managing collaborative projects, allowing users to create projects, assign tasks, manage collaborators, schedule meetings, and communicate through an integrated forum.",
@@ -43,6 +34,15 @@
         "category": "University Project (2025)",
         "platform": "gitlab",
         "link": "https://gitlab.com/jocote/JOCOTE"
+    },
+    {
+        "name": "Flag Game",
+        "image": "../images/flagGame.png",
+        "description": "Flag Game is a game where you must select the correct country from four options based on the displayed flag. It features three different game modes: by rounds, timed, and survival.",
+        "technologies": ["Angular"],
+        "category": "University Project (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/FlagGame"
     },
     {
         "name": "Simplified IMDb",

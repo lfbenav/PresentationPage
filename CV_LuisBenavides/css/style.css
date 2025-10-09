@@ -22,6 +22,18 @@
     --icon-secondary-filter: invert(46%) sepia(13%) saturate(632%) hue-rotate(117deg) brightness(91%) contrast(94%);
 }
 
+.twois {
+    --background-color: #2F3635;
+    --text-color: #2F3635;
+    --text-color-primary: #F3F3ED;
+    --text-color-secondary: #919591;
+    --highlight-color: #5C9C91;
+    --highlight-secondary-color: #56766f;
+    --secondary-background-color: #2C3333;
+    --icon-filter: invert(63%) sepia(7%) saturate(1979%) hue-rotate(120deg) brightness(89%) contrast(87%);
+    --icon-secondary-filter: invert(46%) sepia(13%) saturate(632%) hue-rotate(117deg) brightness(91%) contrast(94%);
+}
+
 body {
     color: var(--text-color);
     font-family: Poppins, sans-serif; 

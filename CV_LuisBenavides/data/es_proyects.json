@@ -18,15 +18,6 @@
         "link": "https://github.com/lfbenav/2024-02-IC4302/tree/P1/P1/PO"
     },
     {
-        "name": "Juego de Banderas",
-        "image": "../images/flagGame.png",
-        "description": "Flag Game es un juego en el que hay que seleccionar el país correcto de entre cuarto opciones basado en la bandera que aparece. Cuenta con tres modos de juego distitntos, por rondas, por tiempo y hasta el fallo.",
-        "technologies": ["Angular"],
-        "category": "Proyecto Universitario (2025)",
-        "platform": "github",
-        "link": "https://github.com/lfbenav/FlagGame"
-    },
-    {
         "name": "Tendindo",
         "image": "../images/tendindo.png",
         "description": "Aplicación Android para la gestión de proyectos colaborativos, que permite crear proyectos, asignar tareas, administrar colaboradores, programar reuniones y comunicarse mediante un foro integrado.",
@@ -43,6 +34,15 @@
         "category": "Proyecto Universitario (2025)",
         "platform": "gitlab",
         "link": "https://gitlab.com/jocote/JOCOTE"
+    },
+    {
+        "name": "Juego de Banderas",
+        "image": "../images/flagGame.png",
+        "description": "Flag Game es un juego en el que hay que seleccionar el país correcto de entre cuarto opciones basado en la bandera que aparece. Cuenta con tres modos de juego distitntos, por rondas, por tiempo y hasta el fallo.",
+        "technologies": ["Angular"],
+        "category": "Proyecto Universitario (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/FlagGame"
     },
     {
         "name": "IMDb Simplificado",
