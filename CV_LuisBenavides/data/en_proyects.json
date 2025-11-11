@@ -27,6 +27,33 @@
         "link": "https://github.com/lfbenav/Tendindo"
     },
     {
+        "name": "Conversational Agent - QWERTY",
+        "image": "../images/QWERTY.png",
+        "description": "Conversational agent capable of analyzing and answering questions from documents notes using Retrieval-Augmented Generation, embeddings, and web search tools.",
+        "technologies": ["Python", "LangChain", "Streamlit", "Ollama", "SentenceTransformers", "ChromaDB", "SerpAPI"],
+        "category": "University Project (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/QWERTY"
+    },
+    {
+        "name": "Audio Spectrogram Classifier",
+        "image": "../images/CNN.png",
+        "description": "Investigative project focused on learning and applying convolutional neural networks for environmental sound classification.",
+        "technologies": ["Python", "PyTorch", "NumPy", "Matplotlib", "Weights & Biases"],
+        "category": "University Project (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/CNN_Spectograms"
+    },
+    {
+        "name": "HTTP/1.0 Server",
+        "image": "../images/http.png",
+        "description": "This project implements an HTTP/1.0 server built from scratch (raw TCP sockets, no frameworks), designed to handle concurrent tasks through a global Worker Pool with per-command concurrency limits.",
+        "technologies": ["Go"],
+        "category": "University Project (2025)",
+        "platform": "github",
+        "link": "https://github.com/StevenNaranjo/P1-SO-2S2025"
+    },
+    {
         "name": "JOCOTE Transpiler",
         "image": "../images/jocote.png",
         "description": "An educational programming language designed to be simple and easy to understand. Features a transpiler that converts JOCOTE code into Python.",

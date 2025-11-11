@@ -16,7 +16,7 @@
     "interests_h1": "Interests",
     "contact_h1": "Contact Me",
 
-    "about_text": "Detail-oriented Computer Engineer with a strong foundation in software development, data systems, and emerging technologies. <br><br> Passionate about DevOps, full-stack development, and game development. <br><br> Strong communicator and team player with a proactive mindset, eager to solve real-world problems and build meaningful, impactful solutions through continuous learning.",
+    "about_text": "I help build reliable, impactful software by combining full-stack development skills with experience in API design, DevOps, and cloud computing. I focus on creating scalable, maintainable end-to-end solutions, from backend services to user-facing applications. <br><br> I’m known for learning quickly, adapting to new challenges, and turning complex problems into practical solutions. Driven by curiosity and collaboration, I aim to build technology that makes a real difference while continuing to grow as an engineer.",
     "portfolio_text": "Some of my most interesting projects.",
     "resume_text": "Studying at the <a href='https://www.tec.ac.cr' class='letra-link' target='_blank'>Costa Rica Institute of Technology</a> from 2023 to the present. <br><br> My main programming languages currently are Python, Java, and JavaScript, as well as programming in containerized environments using tools like Docker and Kubernetes. However, I am always willing to learn and work with new technologies. <br><br> I have experience with:",
     "interests_text": "In my free time, I really enjoy",
@@ -41,7 +41,7 @@
     "skill_languages": "Great English and Spanish",
 
     "interests_studies": "💻 Learning",
-    "interests_studies_desc": "I like studying new areas by myself. Im currently learning about DevOps and cybersecurity",
+    "interests_studies_desc": "I like studying new areas by myself. Im currently learning about DevOps, AI and cybersecurity",
     "interests_swimming": "🏊‍♂️ Swimming",
     "interests_swimming_desc": "I enjoy swimming both to stay fit and for relaxation",
     "interests_cooking": "🍝 Cooking",

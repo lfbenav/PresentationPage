@@ -27,6 +27,33 @@
         "link": "https://github.com/lfbenav/Tendindo"
     },
     {
+        "name": "Agente Conversacional - QWERTY",
+        "image": "../images/QWERTY.png",
+        "description": "Agente conversacional capaz de analizar y responder preguntas a partir de documentos o apuntes del curso utilizando técnicas de Recuperación Aumentada por Generación, embeddings y herramientas de búsqueda web.",
+        "technologies": ["Python", "LangChain", "Streamlit", "Ollama", "SentenceTransformers", "ChromaDB", "SerpAPI"],
+        "category": "Proyecto Universitario (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/QWERTY"
+    },
+    {
+        "name": "Clasificador de Espectrogramas de Audio",
+        "image": "../images/CNN.png",
+        "description": "Proyecto investigativo enfocado en el aprendizaje y aplicación de redes neuronales convolucionales para la clasificación de sonidos ambientales a partir de espectrogramas log-Mel.",
+        "technologies": ["Python", "PyTorch", "NumPy", "Matplotlib", "Weights & Biases"],
+        "category": "Proyecto Universitario (2025)",
+        "platform": "github",
+        "link": "https://github.com/lfbenav/CNN_Spectograms"
+    },
+    {
+        "name": "Servidor HTTP/1.0",
+        "image": "../images/http.png",
+        "description": "Este proyecto implementa un servidor HTTP/1.0 desde cero (raw TCP sockets, sin frameworks), diseñado para ejecutar tareas concurrentes mediante un Worker Pool global con límites de concurrencia por comando.",
+        "technologies": ["Go"],
+        "category": "Proyecto Universitario (2025)",
+        "platform": "github",
+        "link": "https://github.com/StevenNaranjo/P1-SO-2S2025"
+    },
+    {
         "name": "Transpilador JOCOTE",
         "image": "../images/jocote.png",
         "description": "Un lenguaje de programación educativo diseñado para ser simple y fácil de entender. Cuenta con un transpilador que convierte el código JOCOTE en Python.",

@@ -16,7 +16,7 @@
     "interests_h1": "Intereses",
     "contact_h1": "Contáctame",
 
-    "about_text": "Ingeniero en Computación cuidadoso con los detalles, con una sólida base en desarrollo de software, sistemas de datos y tecnologías emergentes. <br><br> Apasionado por DevOps, desarrollo full-stack y desarrollo de videojuegos. <br><br> Comunicativo y colaborador, con una mentalidad proactiva, siempre con ganas de resolver problemas reales y construir soluciones significativas e impactantes a través del aprendizaje continuo.",
+    "about_text": "Ayudo a crear software confiable y con impacto, combinando habilidades de desarrollo full-stack con experiencia en diseño de APIs, prácticas DevOps y computación en la nube. Me enfoco en construir soluciones escalables y mantenibles de extremo a extremo, desde servicios backend hasta aplicaciones orientadas al usuario. <br><br> Destaco por aprender rápidamente, adaptarme a nuevos desafíos y transformar problemas complejos en soluciones prácticas. Impulsado por la curiosidad y la colaboración, busco crear tecnología que genere una diferencia real mientras continúo creciendo como ingeniero.",
     "portfolio_text": "Algunos de mis proyectos más interesantes.",
     "resume_text": "Estudiando en el <a href='https://www.tec.ac.cr' class='letra-link' target='_blank'>Instituto Tecnológico de Costa Rica</a> desde 2023 hasta la fecha. <br><br> Mis lenguajes de programación principales actualmente son Python, Java y JavaScript, así como la programación en entornos de contenedores utilizando herramientas como Docker y Kubernetes. Sin embargo, siempre estoy dispuesto a aprender nuevas tecnologías y trabajar con ellas. <br><br> Tengo experiencia con:",
     "interests_text": "En mi tiempo libre, me gusta hacer cosas como",
@@ -41,7 +41,7 @@
     "skill_languages": "Excelente Inglés y Español",
 
     "interests_studies": "💻 Aprender",
-    "interests_studies_desc": "Me gusta estudiar nuevas áreas por mi cuenta. Actualmente estoy aprendiendo sobre DevOps y ciberseguridad",
+    "interests_studies_desc": "Me gusta estudiar nuevas áreas por mi cuenta. Actualmente estoy aprendiendo sobre DevOps, IA y ciberseguridad",
     "interests_swimming": "🏊‍♂️ Natación",
     "interests_swimming_desc": "Me gusta practicar natación tanto para mantenerme en forma como por relajación",
     "interests_cooking": "🍝 Cocina",
